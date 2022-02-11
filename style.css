@@ -1,0 +1,246 @@
+
+/* JS Tabs */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --shadow-1 : 0 .125rem  .25rem   rgba(0,0,0, .075);
+    --shadow-2 : 0 .5rem  1rem   rgba(0,0,0, .15);
+    --shadow-3 : 0 1rem  3rem   rgba(0,0,0, .175);
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e9e9e9;
+}
+
+.text-center{
+
+    text-align: center;
+}
+
+li{
+    list-style: none;
+   
+}
+ 
+li a{
+    text-decoration: none;
+}
+
+.rid-tab{
+    width:600px ;
+    margin: 100px auto 0;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: var(--shadow-3);
+}
+
+.rid-tab ul{
+
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.banner-caption{
+
+    background: url(https://images.pexels.com/photos/573130/pexels-photo-573130.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    padding: 70px;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+.banner-caption h1{
+    color: #fff;
+    background-color: rgba(230, 255, 5, 0.74);
+    display: inline-block;
+    margin: 10px;
+    padding:3px 10px  ;
+    font-size: 30px;
+    border-radius: 3px;
+   
+
+}
+.banner-caption h2{
+    color: #fff;
+    background-color: rgba(255, 209, 5, 0.74);
+    display: inline-block;
+    margin: 10px;
+    padding:3px 10px  ;
+    font-size: 20px;
+    border-radius: 3px;
+    
+
+}
+.tab-pane  p{
+
+    text-align: center;
+    padding: 10px;
+    
+}
+
+
+.rid-tab ul li{
+
+    display: block;
+    line-height: 50px;
+    width: 20%;
+    text-align: center;
+    height: 50px;
+
+}
+
+.rid-tab ul li a{
+
+    display: block;
+    color: #333;
+    border-bottom: 1px solid rgb(196, 190, 190);
+    font-weight: bold;
+}
+
+.rid-tab ul li a.active{
+
+    border-bottom: none;
+    border-top: 1px solid rgb(196, 190, 190);
+    border-left: 1px solid rgb(196, 190, 190);
+    border-right: 1px solid rgb(196, 190, 190);
+    border-radius: 5px 5px 0 0;
+}
+
+.tab-pane{
+    display: none;
+}
+
+
+.tab-pane.active{
+
+    display: block;
+}
+
+
+
+/* Theme Options clone */
+
+
+
+
+.side-tab{
+    width:800px ;
+    margin: 100px auto 0;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: var(--shadow-3);
+}
+
+
+    
+    .side-tab .text{
+        color: white;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 65px;
+        text-align: center;
+        background: #1e1e1e;
+        letter-spacing: 1px;
+      }
+    
+    
+    .side-tab ul{
+    
+        background: #1b1b1b;
+        height: 100%;
+        width: 100%;
+        list-style: none;
+    }
+    
+    .side-tab ul li{
+    
+        line-height: 60px;
+        border-top: 1px solid rgba(255,255,255,0.1);
+    }
+    
+    .side-tab ul li:last-child{
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    
+    .side-tab ul li a{
+        position: relative;
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        padding-left: 10px;
+        font-weight: 500;
+        display: block;
+        width: 100%;
+        border-left: 3px solid transparent;
+    }
+    
+    .side-tab ul li a:hover{
+        background: #1e1e1e;
+        color: aqua;
+        
+    }
+    
+    
+    
+    .side-tab::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+    .tabs-manu {
+        float: left;
+        width: 20%;
+        height: 340px;
+        margin-top: 10px;
+    }
+    .tabs-body {
+        float: right;
+        width: 80%;
+    }
+    
+    .tabs-pane {
+        display: none;
+    }
+    .tabs-pane.activee{
+    
+        display: block;
+    }
+    
+    
+    .bannerr-caption{
+    
+        background: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg);
+        padding: 90px;
+        background-size: cover;
+        margin-top: 10px;
+    }
+    
+    .bannerr-caption h1{
+        color: #fff;
+        background-color: rgba(230, 255, 5, 0.74);
+        display: inline-block;
+        margin: 10px;
+        padding:3px 10px  ;
+        font-size: 30px;
+        border-radius: 3px;
+       
+    
+    }
+    
+    .tab-pane  p{
+    
+        text-align: center;
+        padding: 10px;
+        
+    }
